@@ -34,7 +34,7 @@ func (app *App) run(host string) {
 	// sigs := make(chan os.Signal, 1)
 	// signal.Notify(sigs, syscall.SIGINT, syscall.SIGTERM, syscall.SIGKILL, os.Interrupt, os.Kill)
 	// go func() {
-	log.Fatal(http.ListenAndServe(":4000", app.Router))
+	log.Fatal(http.ListenAndServe(":3004", app.Router))
 	// }()
 	log.Printf("Server is listning on http://%s\n", host)
 	// sig := <-sigs
