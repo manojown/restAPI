@@ -2,7 +2,7 @@ package handler
 
 import (
 	"encoding/json"
-	"github.com/restApi/app/model"
+	"github.com/manojown/restApi/app/model"
 	"net/http"
 )
 

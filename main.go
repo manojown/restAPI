@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/restApi/app"
-	"github.com/restApi/config"
+	"github.com/manojown/restApi/app"
+	"github.com/manojown/restApi/config"
 )
 
 func main() {
