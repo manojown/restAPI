@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/restApi/app/handler"
-	"github.com/restApi/config"
+	"github.com/manojown/restApi/app/handler"
+	"github.com/manojown/restApi/config"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

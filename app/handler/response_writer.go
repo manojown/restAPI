@@ -2,9 +2,8 @@ package handler
 
 import (
 	"encoding/json"
-	"net/http"
-
 	"github.com/restApi/app/model"
+	"net/http"
 )
 
 func ResponseWriter(res http.ResponseWriter, status int, message string, data interface{}) error {
