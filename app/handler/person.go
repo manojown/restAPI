@@ -2,7 +2,6 @@ package handler
 
 import (
 	"encoding/json"
-	"fmt"
 	"net/http"
 
 	"github.com/gorilla/mux"
@@ -48,8 +47,8 @@ func GetTesting(db *mongo.Database, w http.ResponseWriter, r *http.Request) {
 
 	person.Email = "manoj@gmail.com"
 	person.FirstName = "manoj"
-	fmt.Println("Hit", total)
-	total++
+//	fmt.Println("Hit", total)
+//	total++
 
 	ResponseWriter(w, http.StatusOK, "Person get successfully.", person)
 
